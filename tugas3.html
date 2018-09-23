@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chaebugi Dance School</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('.toggle').click(function(){
+        $('.p1').fadeToggle('slow');
+	});
+	$("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+  $("button").click(function(){
+		var div = $(".Pic");
+		div.animate({height: '300px', opacity: '0.4'}, "slow");
+        div.animate({width: '300px', opacity: '0.8'}, "slow");
+        div.animate({height: '100px', opacity: '0.4'}, "slow");
+        div.animate({width: '0px', opacity: '0.8'}, "slow");
+        });
+  $( "#button1" ).click( function() {
+      $( "#warning1" ).text( "Selamat kamu mendapatkan 1 kaos dari CHAEBUGI" );
+    }); 
+	$( "#button2" ).click( function() {
+        $( "#warning2" ).text( "Selamat kamu mendapatkan 1 tumblr dari CHAEBUGI" );
+    });
+	$( "#button3" ).click( function() {
+      $( "#warning3" ).text( "Selamat kamu mendapatkan 1 pasang sepatu dari CHAEBUGI" );
+    });
+	$( "#button4" ).click( function() {
+      $( "#warning4" ).text( "Selamat kamu mendapatkan gratis open class selama 1 bulan dari CHAEBUGI" );
+    });
+});
+	</script>
+	</head>	
+<body>
+	<div class="wrap">
+		<div class="header">			
+			<h1>"CHAEBUGI DANCE SCHOOL"</h1>
+</div>
+<div class="menu">
+			
+		</div>
+		<div class="badan">			
+			<div class="sidebar">
+				<ul>
+					<li><a href="https://id.wikipedia.org/wiki/Tari">Apa itu Menari?</a></li>
+					<li><a href="http://andwinasekar.blogspot.com/2013/12/sejarah-dan-perkembangan-tari.html">Sejarah Tari</a></li>
+					<li><a href="http://pengertian-tari.blogspot.com/2015/08/pengertian-tari-modern-jenis-sejarah.html">Beragam Jenis Tari</a></li>
+					<li><a href="https://www.msn.com/id-id/news/other/sama-dengan-aktivitas-olahraga-ini-manfaat-menari-untuk-kesehatan/ar-AAyJdBp">Manfaat Menari</a></li>				
+				</ul>
+				<br>
+				 <div class="Pic">
+			<button class="toggle">Click Here for Surprise</button>
+				 <img src="http://www.amemoryinmotion.com/uploads/1/0/9/7/10973437/s255407013279097427_p94_i3_w324.jpeg"alt="Dance"></div>
+			</div>
+			<div class="content">
+			<br>
+			<img src="https://cdn.dribbble.com/users/4960/screenshots/3029803/dance_again.gif" alt="gambar joget">
+			<h2>HALLO GAES!!!!</h2>
+			<br>Salah satu yang kita butuhkan supaya badan kita jadi sehat adalah berolahraga (ya nggak sih). Tapi kebanyakan kaum milenial sekarang nih, pada males olahraga.Katanya capek lah, bosen lah, mahal lah, dan lah lah yang lainnya.
+<br><h2>EITSSSS!!! TUNGGU DULU</h2>
+Ada nih olahraga yang mengasyikkan, seru, dan gak mahal, namanya MENARI.
+Disini CHAEBUGI DANCE SCHOOL mau ngajakin kalian menyehatkan badan dengan cara yang seru dan tentunya gak bikin dompet kalian bolong. Mau tau gimana caranya? cuss langsung daftarkan diri kalian di Chaebugi Dance School.
+<p>Chaebugi Dance School mengadakan open class buat teman-teman yang ingin berolahraga dengan asyik dan menyenangkan. Ada class apa aja sih? Yang ngelatih siapa nih? Biayanya berapa ya? Yuk cek tabel di bawah ini.</p>
+  <input id="myInput" type="text" placeholder="Search..">
+			<br>
+			<br>
+			<table border="1" style="width: 800px;">
+			<tbody id="myTable">
+<tr>
+<th>Jenis Tarian</th>
+<th>Waktu</th>
+<th>Pengajar</th>
+<th>Biaya /pertemuan</th>
+</tr>
+<tr>
+<td>Hip Hop</td>
+<td>Senin, pukul 18.30-20.00 WIB</td>
+<td>Junsun Lee</td>
+<td>Rp. 35.000,-</td>
+</tr>
+<tr>
+<td>Tradisional</td>
+<td>Selasa, pukul 18.30-20.00 WIB</td>
+<td>Didi Ninik Towok</td>
+<td>Rp. 35.000,-</td>
+</tr>
+<tr>
+<td>Girl's Style</td>
+<td>Rabu, pukul 18.30-20.00 WIB</td>
+<td>May J Lee</td>
+<td>Rp. 35.000,-</td>
+</tr>
+<tr>
+<td>K-Pop</td>
+<td>Kamis, pukul 18.30-20.00 WIB</td>
+<td>Casper</td>
+<td>Rp. 35.000,-</td>
+</tr>
+<tr>
+<td>Kontemporer</td>
+<td>Jumat, pukul 18.30-20.00 WIB</td>
+<td>Lia Kim</td>
+<td>Rp. 35.000,-</td>
+</tr>
+<tr>
+<td>Zumba</td>
+<td>Sabtu, pukul 18.30-20.00 WIB</td>
+<td>Mbak Toety</td>
+<td>Rp. 35.000,-</td>
+</tr>
+<tr>
+<td>Ballet</td>
+<td>Minggu, pukul 18.30-20.00 WIB</td>
+<td>Tante Roficho</td>
+<td>Rp. 35.000,-</td>
+</tr>
+</tbody> </table>
+<p> Buat kalian yang tertarik mau join, boleh banget isi formulir di bawah ini yaa.</p>
+<br>
+	  <div class="surprise">
+<p class="p1" style="display:none;">Banyak hadiah menarik yang bisa kamu dapat jika bergabung bersama kami.
+<br>Jadi, tunggu apalagi? Ayo buruan daftar!!!!</p>
+<p style="background-color:#B1B6D6;border-top:1px solid #777;">
+<button class="toggle">Click Here for Surprise</button></p>
+</div>
+	<form action ="proses_input.html" method="get">
+	<br>
+    <br> <label>Nama </label><input type="text" name="nama">
+	<br>
+	<br> <label>Tempat, Tanggal Lahir </label><input type="text" name="tempat_tanggal_lahir">
+	<br>
+	<br><label>Usia </label><input type="text" name="usia">
+    <br><br> <label>Alamat </label><input type="text" name="alamat_rumah"> 
+    <br><br> <label>Email </label><input type="text" name="email">
+    <br><br> <label>Nomor Telepon/HP </label><input type="text" name="nomor_telepon">
+	<br><br> <label>Jenis Kelamin </label>
+	<input type="radio" name="kelamin">Laki-laki
+     <input type="radio" name="kelamin">Perempuan
+	 <br><br> <label> Silahkan pilih jenis tarian :) boleh lebih dari 1 :)</label>
+	 <br><br> <input type="checkbox" name="pilihan">Hip-Hop<br>
+	 <input type="checkbox" name="pilihan">Tradisional<br>
+	 <input type="checkbox" name="pilihan">Girl's Style<br>
+	 <input type="checkbox" name="pilihan">K-pop<br>
+	 <input type="checkbox" name="pilihan">Kontemporer<br>
+	 <input type="checkbox" name="pilihan">Zumba<br> 
+	 <input type="checkbox" name="pilihan">Ballet<br> <br> 
+	 <input type="submit" value="SUBMIT">
+  </form>
+  <h1>SELAMAT!!!</h1>
+			<br>Kamu resmi menjadi member Chaebugi Dance School.
+			<br>Sebagai hadiah perkenalan, silahkan tekan salah satu tombol di bawah ini. :)
+			<br>
+			<p id="warning1">Choose me!</p>
+			<button id="button1">Click me!</button>
+			<p id="warning2">Choose me!</p>
+			<button id="button2">Click me!</button>
+			<p id="warning3">Choose me!</p>
+			<button id="button3">Click me!</button>
+			<p id="warning4">Choose me!</p>
+			<button id="button4">Click me!</button>
+		</div>
+		</div>
+		</div>
+		<div class="footer">
+		<br>
+<h3>Chaebugi Dance School
+<br>Perumahan Bumi Bulan Matahari Blok V no 105, Sukolilo, Surabaya
+<br>Punya Pertanyaan ? Find us on :
+<br>Line : @chaebugi99
+<br>WhatsApp : 081286864922
+<br>Instagram : @chaebugidance99
+</h3>
+	</div>
+	</div>
+</body>
+</html>

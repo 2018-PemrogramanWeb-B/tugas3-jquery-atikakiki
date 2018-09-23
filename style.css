@@ -1,0 +1,98 @@
+
+
+.wrap{
+	background: pink;
+	width: 1250px;
+	margin: 10px 10px;
+	
+	}
+	
+#box{
+background:#0099da;
+height:60px;
+width:100px;
+position:absolute; 
+border-radius:3px; 
+color:#FFF;
+} 
+/*bagian header*/
+.wrap .header{
+	text-align: center;
+	background: #D3D3D3;
+	height: 100px;
+	padding: 5px 20px;
+	color: #BA55D3;
+	font-family:Georgia;
+	font-size:24px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: #ADE8E6;
+	height: 20px;
+	padding:20px;
+}
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 1600px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: pink;
+	float: left;
+	width: 25%;
+	height: 150%;
+}
+
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: #FFE4E1;
+	float: left;
+	height: 150%;
+	width: 75%;	
+	text-align:center;
+}
+
+table[border="1"] {
+border-collapse:collapse;
+font:normal 16px;
+color:#696969;
+font-weight:bold;
+}
+table[border="1"] tr {
+background:#FFB6C1 ;
+}
+table[border="1"] th, table[border="1"] td {
+vertical-align:top;
+padding:5px 10px;
+border:2px solid #E0FFFF;
+}
+table[border="1"] td:nth-child(odd) {
+background:#DEDEDE;
+}
+table[border="1"] th {
+background:#4A6D67;
+border-radius: 10px 10px 0px 0px; 
+-moz-border-radius: 10px 10px 0px 0px; 
+-webkit-border-radius: 10px 10px 0px 0px;
+color:#fff;
+font-weight:bold;
+}
+
+.footer{
+	text-align:center;
+    height:200px;
+    line-height:20px;
+    background:white;
+	color:#191970;
+	
+}
